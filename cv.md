@@ -1,4 +1,4 @@
-![](/rsschool-cv/img/ava.jpg)
+![](/rsschool-cv/img/ava1.jpg)
 # Valentin Grushevskiy
 ***
 ## My Contact Info
