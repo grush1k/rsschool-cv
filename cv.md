@@ -75,3 +75,10 @@ void Search_Binary(timetable arr[], int left, int right, int key)
     - Faculty of Information Technology and Management
     - Specialization: Automated information processing systems
 ***
+## Languages
+- Belarussian
+- Russian
+- English
+***
+## English
+- B1 - Threshold or Intermediate
