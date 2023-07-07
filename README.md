@@ -1,2 +1,2 @@
 
-https://grush1k.github.io/rsschool-cv/CV
+https://grush1k.github.io/rsschool-cv/cv
