@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/rsschool-cv/style.css">
+    <title>cv</title>
+</head>
+
+<body>
+    <header>
+        <nav class="">
+            <ul>
+                <li><a href="#contacts">Contact Info</a></li>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code examples</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#english">English</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+
+            <section class="section section-profile">
+                <img src="/rsschool-cv/img/ava1.jpg" alt="" class="section-profile-logo">
+                <div class="section-profile-title">
+                    <h1 class="section-title main title">Valentin Grushevskiy</h1>
+                    <h3 class="section-subtitle">Future Web Developer</h3>
+                </div>
+            </section>
+
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contact Info</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">Minsk, Belarus</li>
+                    <li class="section-item contacts-item">Email: <a
+                            href="https://id.mail.ru/profile?utm_campaign=mailid&utm_medium=ph&from=headline"
+                            class="github">huawei_p8_lite_2017@mail.ru</a></li>
+                    <li class="section-item contacts-item">GitHub: <a href="https://github.com/grush1k"
+                            class="github">grush1k</a></li>
+                    <li class="section-item contacts-item">Telegram: <a href="https://t.me/grush1k"
+                            class="github">grush1k</a> </li>
+                    <li class="section-item contacts-item">Discord: <a href="https://discord.com/channels/@me"
+                            class="github">grush1k</a></li>
+                </ul>
+            </section>
+
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>Currently, my priority is comprehensive education, the main purpose of which is to gain extensive
+                    experience in the field of IT. My strengths are sociability, stress tolerance, and a responsible
+                    approach to performing the tasks I need.</p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">HTML</li>
+                    <li class="section-item">CSS(PreprocessorSCCS)</li>
+                    <li class="section-item">C++(Basic knowledge)</li>
+                    <li class="section-item">Photoshop</li>
+                    <li class="section-item">AutoCad</li>
+                    <li class="section-item">WordPress</li>
+                    <li class="section-item">Figma</li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section-title">Code examples</h2>
+                <pre class="pre">
+                    <code>
+int sv_search(int key, int m, int r[], product* H) {
+    int j = 0;
+    int i = abs(key % m + r[j]);
+    while (H[i].price != -1)
+        {
+            if (H[i].price == key) return i;
+            j++;
+            i = abs(key % m + r[j]);
+            if (i == m) i = 0;
+        }
+        return -1;
+}
+                    </code>
+                </pre>
+            </section>
+
+            <section class="dection section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li>Gymnasium №4 Baranovichi, General education(secondary education)</li>
+                    <li>Physico-mathematical, computer cientist</li>
+                    <li>BSUIR(graduated from the 1st year)</li>
+                    <li>Faculty of Information Technology and Management</li>
+                    <li>Specialization: Automated information processing systems</li>
+                </ul>
+            </section>
+
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li>Belarussian</li>
+                    <li>Russian</li>
+                    <li>English</li>
+                </ul>
+            </section>
+
+            <section class="section section-projects" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <a href="https://grush1k.github.io/rsschool-cv/" class="github">CV</a>
+            </section>
+
+            <section class="section section-english" id="english">
+                <h2 class="section-title">English</h2>
+                <p>A2 - Elementary</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                &copy; 2023
+                <a href="https://github.com/grush1k" class="github-link">grush1k</a>
+            </div>
+            <a href="https://rs.school/js/" class="rss"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
